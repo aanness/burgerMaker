@@ -1,0 +1,44 @@
+h2 {
+  text-align: left;
+}
+.flexbox-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  color: #c4a899;
+}
+.flexbox-item {
+  margin: 20px;
+  padding: 20px;
+  background-color: darkolivegreen;
+  border-radius: 2em;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 1em;
+  background-color: blanchedalmond;
+  color: #63290a;
+}
+
+body {
+  background-color:  #63290a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  text-align: left;
+}
+
+i {
+  font-size: 200px;
+  color: blanchedalmond;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
