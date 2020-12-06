@@ -1,17 +1,21 @@
 {
-  "name": "mysql-sequelize-heroku",
+  "name": "burger-maker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app that logs new burgers and burgers your have eaten",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "@aanness",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aanness/burgerMaker.git"
+  },
+  "author": "Ashley Anness",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
   }
 }
